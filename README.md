@@ -1,6 +1,6 @@
 <!-- Banner animado de boas-vindas -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:70a5fd&height=180&section=header&text=Olá,%20eu%20sou%20[SEU%20NOME]!&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:70a5fd&height=180&section=header&text=Olá,%20eu%20sou%20[%20lucca]!&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
 </div>
 
 <div align="center">
