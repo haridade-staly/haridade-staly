@@ -1,10 +1,23 @@
-<!-- Banner com tema Egito (Dourado e Areia) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1c160c,50:9e731e,100:f2c14e&height=200&section=header&text=Olá,%20eu%20sou%20LUCCA SANTO&fontSize=38&fontColor=fff8e7&animation=fadeIn&fontAlignY=35&desc=𓂀%20Desenvolvedor%20de%20Jogos%20%7C%20Sonhador%20𓂀&descAlignY=58&descSize=16" width="100%" />
-</div>
-
-<div align="center">
-  <h3>🏺 Estudante de Programação de Jogos Digitais | 🚀 Sonhador & Criador</h3>
+  <svg width="100%" height="190" viewBox="0 0 900 190" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="egyptBg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1c160c" />
+        <stop offset="55%" stop-color="#5c4212" />
+        <stop offset="100%" stop-color="#b88624" />
+      </linearGradient>
+    </defs>
+    <rect width="900" height="190" rx="12" fill="url(#egyptBg)" />
+    <circle cx="760" cy="52" r="26" fill="#f2c14e" opacity="0.85" />
+    <polygon points="620,190 730,68 840,190" fill="#2b1f0b" opacity="0.75" />
+    <polygon points="520,190 605,98 690,190" fill="#3d2c10" opacity="0.65" />
+    <text x="45" y="88" fill="#fff8e7" font-family="Arial, sans-serif" font-size="36" font-weight="bold">
+      Ola, eu sou Lucca Santo
+    </text>
+    <text x="45" y="128" fill="#f2c14e" font-family="Arial, sans-serif" font-size="17">
+      Programacao de Jogos Digitais  |  C# &amp; Git  |  Sonhador
+    </text>
+  </svg>
 </div>
 
 ---
@@ -47,4 +60,29 @@
 
 <div align="center">
   <i>𓆣 "Todo grande império — e todo grande jogo — começa com uma única linha de código e muita imaginação." 𓆣</i>
+</div>
+Opção 2: Banner SVG temático do Egito (com pirâmides e sol dourado)
+Se o link do capsule-render ainda não carregar no seu navegador, você pode substituir apenas o bloco <div align="center"> ... </div> do topo por este SVG com pirâmides no estilo egípcio:
+
+Markdown
+<div align="center">
+  <svg width="100%" height="190" viewBox="0 0 900 190" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="egyptBg" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#1c160c" />
+        <stop offset="55%" stop-color="#5c4212" />
+        <stop offset="100%" stop-color="#b88624" />
+      </linearGradient>
+    </defs>
+    <rect width="900" height="190" rx="12" fill="url(#egyptBg)" />
+    <circle cx="760" cy="52" r="26" fill="#f2c14e" opacity="0.85" />
+    <polygon points="620,190 730,68 840,190" fill="#2b1f0b" opacity="0.75" />
+    <polygon points="520,190 605,98 690,190" fill="#3d2c10" opacity="0.65" />
+    <text x="45" y="88" fill="#fff8e7" font-family="Arial, sans-serif" font-size="36" font-weight="bold">
+      Ola, eu sou Lucca Santo
+    </text>
+    <text x="45" y="128" fill="#f2c14e" font-family="Arial, sans-serif" font-size="17">
+      Programacao de Jogos Digitais  |  C# &amp; Git  |  Sonhador
+    </text>
+  </svg>
 </div>
